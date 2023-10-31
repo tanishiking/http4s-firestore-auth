@@ -1,0 +1,4 @@
+- Create a Service Account https://developers.google.com/identity/protocols/oauth2/service-account?hl=en#creatinganaccount
+  - That account should be able to read/write to the firestore.
+- Download the service account key to the current directory.
+- Run `scala-cli main.scala -- <project_id> <key.json>`
